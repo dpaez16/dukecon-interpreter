@@ -1,0 +1,109 @@
+// https://wiki.eduke32.com/wiki/Full_command_list
+
+# Preprocessor
+- include
+- define
+- // (single line comment)
+- /* ... /* (multi-line comment)
+
+# Functions
+- defstate
+- ends
+- state
+
+# Variables
+- gamevar
+- gamearray
+
+# Gamevar operations
+- setvar
+- setvarvar
+- setarray
+- addvar
+- addvarvar
+- subvar
+- subvarvar
+- mulvar
+- mulvarvar
+- divvar
+- divvarvar
+- modvar
+- modvarvar
+- andvar
+- andvarvar
+- orvar
+- orvarvar
+- xorvar
+- xorvarvar
+- randvar
+- randvarvar
+
+# Array operations
+- getarraysize
+- getarraysequence
+- resizearray
+- copy
+- setarray
+- setarraysequence
+
+# Flow control
+- nullop
+- else
+
+- switch
+- endswitch
+- case
+- default
+
+- break
+- continue
+- return
+- exit?
+- terminate?
+
+- whilevarl
+- whilevarvarl
+- whilevare
+- whilevarn
+- whilevarvarn
+
+- ifvare
+- ifvarn
+- ifvarg
+- ifvarl
+- ifvarand
+- ifvaror
+- ifvarxor
+- ifvareither
+- ifvarvare
+- ifvarvarn
+- ifvarvarg
+- ifvarvarl
+- ifvarvarand
+- ifvarvaror
+- ifvarvarxor
+- ifvarvareither
+
+# Math operations
+- abs
+- sqrt
+- inv
+- divr
+- divru
+- divrd
+- calchypotenuse
+- sin
+- cos
+- clamp
+- shiftvarl
+- shiftvarr
+- mulscale
+- divscale
+- scalevar
+- getangle
+- getincangle
+
+# Printing
+- al
+- addlog
+- addlogvar
